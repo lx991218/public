@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>Document</title>
+		<link rel="stylesheet" type="text/css" href="1111/css/base.css" />
+		<link rel="stylesheet" href="1111/css/fullpage.min.css">
+		<style>
+			a {
+			    text-decoration: none;
+			    font-size: .333333rem;
+				color: #FF7F00;
+				text-align: center;
+			}
+			a:hover {
+				color: red;
+			}
+			h3{
+				text-align: center;
+			}
+			h3 em {
+				color: red;
+			}
+
+		
+
+			#fp-nav ul li a.active span,
+			#fp-nav ul li a span {
+				background-color: red !important;
+			}
+
+			.section {
+				width: 100%;
+				height: 0.5rem;
+				line-height: 0.5rem;
+				font-size: 0.5rem;
+			}
+
+			.section1 {
+				background: url(http://idowebok.u.qiniudn.com/77/1.jpg) 50%;
+			}
+
+			.section2 {
+				background: url(http://idowebok.u.qiniudn.com/77/2.jpg) 50%;
+			}
+
+			.section3 {
+				background: url(http://idowebok.u.qiniudn.com/77/3.jpg) 50%;
+			}
+
+			.section4 {
+				background: url(http://idowebok.u.qiniudn.com/77/4.jpg) 50%;
+			}
+
+			.section5 {
+				background: url(1111/img/four-bg.jpg) 50%;
+			}
+			body {
+			    min-width: 320px;
+			    max-width: 100%;
+			    /* flexible 给我们划分了 10 等份 */
+			    width: 10rem;
+			    margin: 0 auto;
+			    line-height: 1.5;
+			    font-family: Arial, Helvetica;
+			    background: #f2f2f2;
+			}
+			
+		</style>
+		<script src="js/flexible.js" type="text/javascript" charset="utf-8"></script>
+		<script src="http://mat1.gtimg.com/libs/jquery/1.12.0/jquery.js" type="text/javascript" charset="utf-8"></script>
+				<script>
+					window.jQuery || document.write('<script src="js/jquery.js"><\/script>');
+				</script>
+		<script src="1111/js/fullpage.min.js"></script>
+		<script>
+			$(function() {
+				$('#dowebok').fullpage({
+					sectionsColor: ['pink', '#4BBFC3', '#7BAABE', '#f90'],
+					navigation: true
+
+				});
+			});
+		</script>
+	</head>
+
+	<body>
+		<div id="dowebok">
+			<div class="section section1">
+				<h3><a href="27164.html" target="_blank">综合案例
+						<p>(用模块组件化，jquery，ajax，bootscript的知识.中间共有5个页面：主页面，注册页面，购物车页面，搜索跳转淘宝页面，商品详情页)</p>
+						<em>提示：点击即可观看,数据基本为假数据</em></a></h3>
+			</div>
+			<div class="section section2">
+				<h3><a href="1111/echart/index.html" target="_blank">echart页面
+						<p>(主要用了less编写css页面，可视化适配(em)，echart插件的使用)</p>
+						<em>提示：点击即可观看,数据基本为假数据</em></a></h3>
+			</div>
+			<div class="section section3">
+				<h3><a href="1111/time.html" target="_blank">canvas页面
+						<p>(主要用了canvasapi和原生js，完成用canvas做的时钟和刮刮卡效果)</p>
+						<em>提示：点击即可观看,数据基本为假数据</em></a></h3>
+			</div>
+			<div class="section section4">
+				<h3><a href="1111/snake.html" target="_blank">贪吃蛇效果页面
+						<p>(主要用了原生js代码去完成，可以用键盘控制贪吃蛇)</p>
+						<em>提示：点击即可观看,数据基本为假数据</em></a></h3>
+			</div>
+			<div class="section section5">
+				<h3><h3><a href="./1111/todolist.html" target="_blank">todolist案例
+				<p>(主要用了原生js进行操作，调用api让数据能储存在本地)</p>
+				<em>提示：点击即可观看,数据基本为假数据</em></a></h3></h3>
+			</div>
+		</div>
+	</body>
+
+</html>

@@ -1,0 +1,29 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body {
+	height: 100%;
+	overflow: hidden;
+}
+
+#warp,
+ul,
+ul>li {
+
+	height: 100%;
+}
+
+ul>li {
+	background: url(../img/2.jpeg);
+	background-size: 100% 100%;
+}
+
+canvas {
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: 1s;
+}
